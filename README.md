@@ -103,6 +103,14 @@ php ws_deploy_blackLits.php
 
 ### 7. Ejecutar sh para instalación de librerías para envío y generación de reporteria
 
+validar version de php, debe ser php > 7.2.3
+
+```sh
+php -v
+```
+
+
+
 ```sh
 sh composer_require.sh
 ```
