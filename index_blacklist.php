@@ -1,6 +1,4 @@
 <?php
-//Get service
-$service_id = $service['service_id'];
 
 if (!validate_schedules_ws($currenttime, $currentday, $service_id, $execID, $db)) {
     $code   = 408;
