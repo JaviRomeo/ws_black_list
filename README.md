@@ -67,8 +67,6 @@ $service_id = $service['service_id']; //Obligatoria para obtener el service_id
 Estas son de ilustración, deberá copiarlas con su contenido y pegarlas en el archivo `/index.php` debajo de getService
 
 ```php
-//Get service
-$service_id = $service['service_id']; //Obligatoria para obtener el service_id
 
 if (!validate_schedules_ws($currenttime, $currentday, $service_id, $execID, $db)) { /*function content*/  }
 
